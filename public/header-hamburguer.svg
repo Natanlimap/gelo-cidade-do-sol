@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 62" width="80" height="62">
+	<defs>
+		<image width="80" height="62" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA+BAMAAABOwYG0AAAAAXNSR0IB2cksfwAAACFQTFRFAAAA7sUv7cUv7cUv7cUv7cUw7cQv7cYv7sUw7cUv7sUwqWngygAAAAt0Uk5TAJLy/+2A532F6HZ9VNfWAAAAY0lEQVR4nGNgVDYmApgIMAgTo87Y2JCBKAOBRjIQp87YeCAVEu0ZYeIUGjIQHeCjYBQMJjBaUuBVOFpSjIJRAAasycQkXLMChmbisoIFw2TiFFoOiZJiMnHqLIkPHnbiAnwBAFxV7uln5J/dAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Camada 1" href="#img1" x="0" y="0" />
+</svg>
