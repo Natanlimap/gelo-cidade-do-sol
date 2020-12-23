@@ -1,24 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 .body{
-    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;    overflow-x: hidden !important;
     background-color: #FFF;
 
 }
 
 #Header{
-    min-height: 720px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-image: url('./background/banner.png');
+    background-image: url('./background/banner-textura.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
   
 
+#foto-sobre{
+  height: 80px;
+  width: auto;
+}
+#produto-laranja{
+  background-image: url('./background/produto-laranja.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#produto-amarelo{
+  background-image: url('./background/produto-amarelo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#produto-azul{
+  background-image: url('./background/produto-azul.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 

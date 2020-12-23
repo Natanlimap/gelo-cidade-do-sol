@@ -2,30 +2,31 @@
 
 export default function Contato() {
     return (
-        <div id='Contato'>
-            <div className='py-10 flex flex-col' style={{ backgroundColor: '#f3f2f1' }}>
-                <p style={{ color: '#253891' }} className='text-center mx-20 text-lg font-semibold sm:mx-40 lg:mx-40 lg:px-64'>Ligue para a gente ou mande uma mensagem e peça já o seu!</p>
-                <div className='flex flex-row justify-center py-10' >
-                    <a href='https://api.whatsapp.com/send?phone=+5584988718045&text='>
-                        <div className='py-3 px-5 rounded-lg' style={{ backgroundColor: '#9dca31' }}>
-                            <div className='flex flex-row justify-center'>
-                                <img
-                                    className='mx-auto'
-                                    src='./Contato-wpp.svg'
-                                    width={40}
-                                    height={40}
-                                ></img>
-                                <p className='ml-2 my-auto'>(84) 9 8871-8045</p>
-                            </div>
+        <div className='flex sm:flex-row-reverse  flex-col'>  
+            <div id='Contato'  className='sm:w-1/2 h-full'>
+                <div className='py-10 flex flex-col pl-10'  style={{ backgroundColor: '#f9ad00', color: '#004d7b', height: '25rem' }}>
+                    <div>
+                        <p className='font-black'>Contato</p>
+                        <div className='flex flex-row mt-5'>
+                            <img width='20' className='mr-1' src='./tel-contato.svg'></img>
+                            <p>84 3015-1669</p>
                         </div>
-                    </a>
+                        <div className='flex flex-row'>
+                            <img width='20' className='mr-1' src='./zap-contato.svg'></img>
+                            <p>84 3015-1669</p>
+                        </div>
+
+
+                    </div>
+                    <div className='mt-3'>
+                        <p className='font-black'>Onde estamos</p>
+                        <p className='mt-5'>Rod BR 304 KM, 305 - Zona Rural de Macaíba/RN</p>
+                        <p className='mt-5'>Fazenda Horizontes - 59280-000</p>
+                    </div>
                 </div>
             </div>
-            <div className='text-center bg-white py-5 lg:mx-0 lg:px-64 '> 
-                    <p className='font-bold'>ENDEREÇO</p>
-                    <p>RUA SANTA LUZIA, 1821 - IGAPÓ</p>
-                    <p>NATAL - RN, 59104-300</p>
-                </div>
+            <iframe id="Onde" className='sm:w-1/2' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31750.71941706241!2d-35.3499989!3d-5.8781093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b251160f060621%3A0xc054368d6ef98879!2sGELO%20CIDADE%20DO%20SOL!5e0!3m2!1spt-BR!2sbr!4v1608762025698!5m2!1spt-BR!2sbr" width="100%" height="400rem" ></iframe>
+
         </div>
     )
 }
