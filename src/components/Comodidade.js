@@ -27,7 +27,7 @@ export default function Comodidade() {
                             <div className='flex flex-col h-full  text-left mt-4 mx-3 text-white'>
                                 <p className='text-base'>
                                 Indicado para gelar e
-                                conservar externamete.
+                                conservar externamente.
 
                                 </p>
                                 <p className='mt-10 text-xl font-bold'>Pacote 10kg</p>
