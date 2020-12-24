@@ -25,12 +25,12 @@ export default function Comodidade() {
                         <div className='w-52 h-52  mb-10 mt-5 '>
                             <h3 className='text-3xl mx-2 font-bold text-white text-left'>Gelo em escama</h3>
                             <div className='flex flex-col h-full  text-left mt-4 mx-3 text-white'>
-                                <p className='text-base'>Moído e descascado.
+                                <p className='text-base'>
                                 Indicado para gelar e
                                 conservar externamete.
 
                                 </p>
-                                <p className='mt-4 text-xl font-bold'>Pacote 10kg</p>
+                                <p className='mt-10 text-xl font-bold'>Pacote 10kg</p>
                             </div>
                         </div>
                     </div>
