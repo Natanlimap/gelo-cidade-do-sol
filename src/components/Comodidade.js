@@ -30,7 +30,7 @@ export default function Comodidade() {
                                 conservar externamete.
 
                                 </p>
-                                <p className='mt-4 text-xl font-bold'>Pacote 6kg</p>
+                                <p className='mt-4 text-xl font-bold'>Pacote 10kg</p>
                             </div>
                         </div>
                     </div>

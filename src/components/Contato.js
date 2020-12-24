@@ -13,7 +13,7 @@ export default function Contato() {
                         </div>
                         <div className='flex flex-row'>
                             <img width='20' className='mr-1' src='./zap-contato.svg'></img>
-                            <p>84 3015-1669</p>
+                            <p>84 98835-3003</p>
                         </div>
 
 

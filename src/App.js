@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='w-screen body'>
-        <a href='https://api.whatsapp.com/send?phone=+558430151669' class="float" >
+        <a href='https://api.whatsapp.com/send?phone=+5584988353003' class="float" >
           <i class="my-float"><img src='./wpp.png'></img></i>
         </a>
         <Header />
